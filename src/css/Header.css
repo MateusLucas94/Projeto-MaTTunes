@@ -1,0 +1,44 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #ffffffc5, #00000031);
+  padding: 0 20px;
+}
+
+.header-container a {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #333;
+}
+
+.header-container a:hover {
+  color: #0056b3; /* cor do link ao passar o mouse */
+  text-decoration: underline; /* adicionar sublinhado ao passar o mouse */
+}
+
+.header-container p {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #333;
+}
+
+.carregando {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .header-container a {
+    margin-bottom: 10px;
+  }
+}

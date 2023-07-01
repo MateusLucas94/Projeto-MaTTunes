@@ -1,0 +1,8 @@
+.music-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    column-count: 3;
+    column-gap: 16px; /* Espaço entre as colunas */
+  }
